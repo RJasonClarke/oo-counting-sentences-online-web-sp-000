@@ -14,7 +14,7 @@ class String
 
   def exclamation?
     exclamation = "Happy Halloween!"
-    exclamation.end_with("!")
+    exclamation.end_with?("!")
   end
 
   def count_sentences
