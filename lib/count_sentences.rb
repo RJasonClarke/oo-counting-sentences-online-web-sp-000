@@ -4,8 +4,11 @@ class String
 
   def sentence?
     sentence = "Hi, my name is Sophie."
-    sentence.end_with?(".")
-  else false
+    if sentence.end_with?(".")
+      return true
+    else
+      return false
+    end
   end
 
   def question?
