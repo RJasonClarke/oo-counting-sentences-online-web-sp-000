@@ -21,7 +21,5 @@ class String
   def count_sentences
     count_sentences = "one. two. three?"
     count_sentences.split(/\.|\?|!/).length
-    if count_sentences.split(/\.|\?|!/).length == 0
-      return 0
   end
 end
