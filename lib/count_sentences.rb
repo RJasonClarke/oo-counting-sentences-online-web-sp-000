@@ -5,6 +5,7 @@ class String
   def sentence?
     sentence = "Hi, my name is Sophie."
     sentence.end_with?(".")
+  else false
   end
 
   def question?
