@@ -10,11 +10,11 @@ class String
   def question?
     question = "What is your name?"
     question.end_with?("?")
-
   end
 
   def exclamation?
-
+    exclamation = "Happy Halloween!"
+    exclamation.end_with("!")
   end
 
   def count_sentences
