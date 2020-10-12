@@ -19,4 +19,5 @@ class String
     binding.pry
     self.split.count
   end
+  end
 end
