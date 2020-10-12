@@ -18,6 +18,7 @@ class String
   end
 
   def count_sentences
-    sentences = "one. two. three?".count_sentences
+    sentences = "one. two. three?"
+    sentence.count_sentences
   end
 end
