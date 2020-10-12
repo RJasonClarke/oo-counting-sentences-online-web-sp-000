@@ -4,8 +4,8 @@ class String
 
   def sentence?
     sentence = "Hi, my name is Sophie."
-    p sentence.end_with?(".")
-    p sentence.end_with?("?")
+    sentence.end_with?(".")
+    sentence.end_with?("?")
   end
 
   def question?
