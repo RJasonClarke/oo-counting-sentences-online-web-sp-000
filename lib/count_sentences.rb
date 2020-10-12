@@ -9,7 +9,7 @@ class String
 
   def question?
     question = "What is your name?"
-    question.ends_with?("?")
+    question.end_with?("?")
 
   end
 
